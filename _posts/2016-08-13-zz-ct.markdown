@@ -5,4 +5,8 @@ date:   2016-08-13 12:00:00
 categories: main
 ---
 
-Nothing yet!
+<section class="algs">
+  <div class="alg">
+    F R U R' U' F'
+  </div>
+</section>
