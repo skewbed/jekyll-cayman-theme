@@ -1,1 +1,24 @@
+.algs {
+  display: block;
+  text-align: center;
+}
 
+.alg {
+  display: inline-block;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 568px) {
+  .alg {
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 978px) {
+  .alg {
+    display: inline-block;
+    width: 33.33%;
+  }
+}
