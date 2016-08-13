@@ -8,6 +8,11 @@
   width: 100%;
 }
 
+.alg.img {
+  display: block;
+  width: 100%;
+}
+
 
 @media screen and (min-width: 568px) {
   .alg {
