@@ -9,10 +9,9 @@ author:
   name:       Skewbed
   url:        https://skewbed.github.io/
 
-data:
-  tlse:
-    - R U R\' U\' R U\' R\'
-    - R U\' R\'
+tlse:
+  - "R U R\' U\' R U\' R\'"
+  - "R U\' R\'"
 
 # Gems
 gems:
