@@ -10,20 +10,18 @@
 
 .alg > img {
   display: block;
-  width: 100%;
+  width: 33.33%;
 }
 
 
-@media screen and (min-width: 568px) {
+@media screen and (max-width: 720px) {
   .alg {
-    display: inline-block;
     width: 50%;
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 568px) {
   .alg {
-    display: inline-block;
-    width: 33.33%;
+    width: 100%;
   }
 }
