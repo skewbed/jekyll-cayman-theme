@@ -8,7 +8,7 @@ categories: main
 <section class="algs">
   {% for alg in site.tlse %}
     <div class="alg">
-      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&stage=oll&size=480&view=plan&case=RUR%27U%27R%27U2RUR%27UR2U2R%27y2">
+      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=jpg&view=plan&sch=wddwdd&case={{ alg }}">
       {{ alg }}
     </div>
   {% endfor %}
