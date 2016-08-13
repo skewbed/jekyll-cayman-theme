@@ -6,7 +6,9 @@ categories: main
 ---
 
 <section class="algs">
-  <div class="alg">
-    F R U R' U' F'
-  </div>
+  {% for alg in data.tlse %}
+    <div class="alg">
+      {{ alg }}
+    </div>
+  {% endfor %}
 </section>
