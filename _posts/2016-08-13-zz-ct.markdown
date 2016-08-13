@@ -6,7 +6,7 @@ categories: main
 ---
 
 <section class="algs">
-  {% for alg in page.data.tlse %}
+  {% for alg in page.tlse %}
     <div class="alg">
       {{ alg }}
     </div>
