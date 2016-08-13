@@ -6,6 +6,7 @@
 .alg {
   display: inline-block;
   width: 32%;
+  font-weight: bold;
 }
 
 .alg > img {
