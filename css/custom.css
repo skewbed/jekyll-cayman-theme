@@ -5,12 +5,12 @@
 
 .alg {
   display: inline-block;
-  width: 100%;
+  width: 32%;
 }
 
 .alg > img {
   display: block;
-  width: 32%;
+  width: 100%;
 }
 
 
