@@ -9,13 +9,13 @@ author:
   name:       Skewbed
   url:        https://skewbed.github.io/
 
-tlse:
-  - "R U R\' U\' R U\' R\'"
-  - "R U\' R\'"
-
 # Gems
 gems:
   - jekyll-paginate
 
 #Others
 markdown: kramdown
+
+tlse:
+  - "R U R' U' R U' R'"
+  - "R U' R'"
