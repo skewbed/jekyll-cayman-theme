@@ -1,6 +1,6 @@
- @import 'https://fonts.googleapis.com/css?family=Roboto:500';
+@import 'https://fonts.googleapis.com/css?family=Roboto:500';
  
- .algs {
+.algs {
   display: block;
   text-align: center;
 }
@@ -15,6 +15,10 @@
 .alg > img {
   display: block;
   width: 100%;
+}
+
+.alg > img.disabled {
+  opacity: 0.5;
 }
 
 
