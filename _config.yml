@@ -28,7 +28,7 @@ wv:
   - L' U2 R U L U' L' U R' U2 L
   - R U R2 U' R2 U' R2 U2 R
   - U R' U' R2 U' R2 U2 R
-  - R U' x' U R' D (R U' R') D'
+  - R U' x' U R' D (R U' R') D' (x)
   - U R U2 R2 U' (R U' R') U2 R
   - U R2 D (R' U2 R) D' R2
   - U' L' (U R U' R') L
