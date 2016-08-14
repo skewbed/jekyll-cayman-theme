@@ -17,12 +17,12 @@ gems:
 markdown: kramdown
 
 tlse:
-  - U R U' R' U' R U' R' U R U' R'
-  - R U' R'
-  - U' R U2 R' U2 R U2 R'
-  - R2 D R' U' R D' R2
-  - R U' R' U R' U' R U' R' U2 R<strong></strong>
-  - R U R' U2 R U' R' U' R U R'
+  - U (R U' R' U') (R U' R') U (R U' R')
+  - (R U' R')
+  - U' (R U2 R') U2 (R U2 R')
+  - R2 D (R' U' R) D' R2
+  - (R U' R') U (R' U' R) U' (R' U2 R)
+  - (R U R') U2 (R U' R') U' (R U R')
   - R U R' U' R U' R'
   - U R U' R' U R U2 R'
   - U2 R U2 R' U R U2 R'
