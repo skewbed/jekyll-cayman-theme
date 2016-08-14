@@ -17,7 +17,7 @@ categories: main
 <script>
   window.onload = function() {
     if(localStorage.getItem("(R U\' R\')") == null) {
-      document.getElementsByClassName("alg").toArray().forEach(function(a) {
+      [].slice.call(document.getElementsByClassName("alg")).forEach(function(a) {
         console.log("[[DEBUG]]")
         localStorage.setItem(a.parentElement.innerText, "on");
       });
