@@ -19,7 +19,7 @@ categories: main
     if(localStorage.getItem("(R U\' R\')") == null) {
       [].slice.call(document.getElementsByClassName("alg")).forEach(function(a) {
         console.log("[[DEBUG]]")
-        localStorage.setItem(a.parentElement.innerText, "on");
+        localStorage.setItem(a.innerText, "on");
       });
     }
   }
