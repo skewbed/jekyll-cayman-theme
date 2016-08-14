@@ -15,6 +15,7 @@
 .alg > img {
   display: block;
   width: 100%;
+  transition: 0.66s all;
 }
 
 .alg > img.disabled {
