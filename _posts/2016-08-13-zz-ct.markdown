@@ -17,7 +17,7 @@ categories: main
 <script>
   function imgClick(e) {
     console.log("[[IMGCLICK]]");
-    if(e.target.className.indexOf("disabled") != -1) {
+    if(e.target.className.indexOf("disabled") == -1) {
       console.log("[[DISABLE]]");
       e.target.className += e.target.className.indexOf("disabled");
     } else {
