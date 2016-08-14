@@ -16,10 +16,10 @@ categories: main
 
 <script>
   function imgClick(e) {
-    if(a.target.className.indexOf("disabled") != -1) {
-      a.target.className += a.target.className.indexOf("disabled"); 
+    if(e.target.className.indexOf("disabled") != -1) {
+      e.target.className += e.target.className.indexOf("disabled"); 
     } else {
-      a.target.className = a.splice(a.target.className.indexOf("disabled"), "disabled".length);
+      e.target.className = e.target.className.splice(e.target.className.indexOf("disabled"), "disabled".length);
     }
   }
 </script>
