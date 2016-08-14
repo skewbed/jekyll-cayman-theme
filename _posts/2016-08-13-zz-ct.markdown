@@ -9,7 +9,7 @@ categories: main
   {% for alg in site.tlse %}
     <div class="alg">
       <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&sch=yddydd&case={{ alg }}" onclick="imgClick(event)">
-      {{ alg }}
+      <span>{{ alg }}</span>
     </div>
   {% endfor %}
 </section>
@@ -20,6 +20,12 @@ categories: main
       [].slice.call(document.getElementsByClassName("alg")).forEach(function(a) {
         console.log("[[DEBUG]]")
         localStorage.setItem(a.innerText, "on");
+      });
+    } else {
+      [].slice.call(document.getElementsByClassName("alg")).forEach(function(a) {
+        if(localStorage.getItem(a.innerText) == "off") {
+          a.children[0].className += " disabled";
+        }
       });
     }
   }
