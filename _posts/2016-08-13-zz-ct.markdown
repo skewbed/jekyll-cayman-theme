@@ -19,7 +19,7 @@ categories: main
     console.log("[[IMGCLICK]]");
     if(e.target.className.indexOf("disabled") == -1) {
       console.log("[[DISABLE]]");
-      e.target.className += e.target.className.indexOf("disabled");
+      e.target.className += "disabled";
     } else {
       console.log("[[ENABLE]]");
       e.target.className = e.target.className.split('').splice(e.target.className.indexOf("disabled"), "disabled".length).join();
