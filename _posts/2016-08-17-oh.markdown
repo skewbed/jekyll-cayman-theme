@@ -9,7 +9,7 @@ categories: main
   {% for alg in site.ohpll %}
     <div class="alg">
       <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&stage=pll&case={{ alg }}" onclick="imgClick(event)">
-      <span>{{ alg }}</span>
+      <div>{{ alg }}</div>
     </div>
   {% endfor %}
 </section>
@@ -18,7 +18,7 @@ categories: main
   {% for alg in site.ohcoll %}
     <div class="alg">
       <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&stage=coll&case={{ alg }}" onclick="imgClick(event)">
-      <span>{{ alg }}</span>
+      <div>{{ alg }}</div>
     </div>
   {% endfor %}
 </section>
