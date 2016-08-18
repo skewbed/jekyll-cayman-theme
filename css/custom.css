@@ -12,7 +12,7 @@
   font-family: 'Roboto';
 }
 
-.alg > span {
+.alg > div {
  display: block;
  min-height: 2.2rem;
 }
