@@ -12,6 +12,10 @@
   font-family: 'Roboto';
 }
 
+.alg > span {
+ min-height: 2.2rem;
+}
+
 .alg > img {
   display: block;
   width: 100%;
