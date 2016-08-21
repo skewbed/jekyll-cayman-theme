@@ -16,6 +16,24 @@ gems:
 #Others
 markdown: kramdown
 
+zzct-beg:
+ - R U R' U' R U R' U R U' R'
+ - R U2 R' U2 R U R' U R U' R'
+ - R U2 R' U R U2 R' U2 R U R'
+ - U' R U2 R' U R U R'
+ - U2 R U' R' U' R U R' U' R U2 R'
+ - R U2 R' U' R U R' U R U R'
+ - U R U R' U' R U R' U R U2 R' U' R U2 R'
+ - U R U R' U2 R U R'
+ - R U' R' U R U R' U R U' R'
+ - U2 R U' R' U' R U2 R'
+ - R U R' U' R U' R' U2 R U2 R'
+ - U' R U' R' U2 R U' R'
+ - U' R U' R' U R U2 R' U R U' R'
+ - U R U R' U' R U U R' U' R U' R' U R U R'
+ - R U2 R' U R U R' U R U2 R' U' R U' R'
+ - U2 R U' R' U R U R' U' R U R'
+
 ohpll:
   - z U' R U' R' U' R' U' R U R U2 z'
   - R U' R U R (U R U' R') U' R2
