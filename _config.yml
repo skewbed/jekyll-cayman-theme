@@ -17,8 +17,8 @@ gems:
 markdown: kramdown
 
 zzct-beg:
- - R U R' U' R U R' U R U' R'
- - R U2 R' U2 R U R' U R U' R'
+ - (R U R' U') (R U R') U (R U' R')
+ - (R U2 R') U2 (R U R') U (R U' R')
  - R U2 R' U R U2 R' U2 R U R'
  - U' R U2 R' U R U R'
  - U2 R U' R' U' R U R' U' R U2 R'
