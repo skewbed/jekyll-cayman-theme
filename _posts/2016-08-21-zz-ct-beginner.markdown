@@ -25,7 +25,7 @@ categories: main
 
 <script>
   window.onload = function() {
-    if(localStorage.getItem("(R U R' U') (R U R') U (R U' R')") == null) {
+    if(localStorage.getItem("(R U R' U') (R U R') (U R U' R')") == null) {
       [].slice.call(document.getElementsByClassName("alg")).forEach(function(a) {
         console.log("[[DEBUG]]")
         localStorage.setItem(a.innerText, "on");
