@@ -14,6 +14,15 @@ categories: main
   {% endfor %}
 </section>
 
+<section class="algs">
+  {% for alg in site.oh-epll %}
+    <div class="alg">
+      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&sch=yddydd&case={{ alg }}" onclick="imgClick(event)">
+      <span>{{ alg }}</span>
+    </div>
+  {% endfor %}
+</section>
+
 <script>
   window.onload = function() {
     if(localStorage.getItem("(R U R' U') (R U R') U (R U' R')") == null) {
