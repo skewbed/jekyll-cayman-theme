@@ -23,6 +23,15 @@ categories: main
   {% endfor %}
 </section>
 
+<section class="algs">
+  {% for alg in site.lc-coll %}
+    <div class="alg">
+      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&case={{ alg }}" onclick="imgClick(event)">
+      <span>{{ alg }}</span>
+    </div>
+  {% endfor %}
+</section>
+
 <script>
   window.onload = function() {
     if(localStorage.getItem("(R U R' U') (R U R') (U R U' R')") == null) {
