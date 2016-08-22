@@ -17,6 +17,14 @@ gems:
 #Others
 markdown: kramdown
 
+lc-coll:
+  - y' (R U' R y R2 u R' U R U' R u' R2 F2)
+  - (U F2) (R2 u R' U R U' R u' R2 y L' U L')
+  - (R) U L' U2 R U' R' U2 L R U' R2
+  - (R) U L' U2 R U' R' U2 L R U' R2
+  - R2 U2 R2 U' R2 U' R2
+  - y' R2 U2 R2 U R2 U R2 y
+
 zzct-beg:
  - (R U2 R') U' (R U R' U') (R U' R')
  - R U2 [R2] U' [R2] U' [R2] U2 R
