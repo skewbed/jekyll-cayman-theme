@@ -17,7 +17,7 @@ categories: main
 <section class="algs">
   {% for alg in site.oh-epll %}
     <div class="alg">
-      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&sch=yddydd&case={{ alg }}" onclick="imgClick(event)">
+      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&stage=pll&case={{ alg }}" onclick="imgClick(event)">
       <span>{{ alg }}</span>
     </div>
   {% endfor %}
