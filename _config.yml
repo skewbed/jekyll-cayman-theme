@@ -3,6 +3,7 @@ title:        Skewbed
 tagline:      Because Cubing Rules
 baseurl:      ""
 paginate:     1
+future:       true
 
 # About/contact
 author:
