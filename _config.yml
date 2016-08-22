@@ -18,8 +18,8 @@ gems:
 markdown: kramdown
 
 lc-coll:
-  - y' (R U' R y R2 u R' U R U' R u' R2 F2)
-  - (U F2) (R2 u R' U R U' R u' R2 y L' U L')
+  - y' (R U' R y R2 U E' R' U R U' R U' E R2 F2)
+  - (U F2) (R2 U E' R' U R U' R U' E R2 y L' U L')
   - (R) U L' U2 R U' R' U2 L R U' R2
   - (R) U L' U2 R U' R' U2 L R U' R2
   - R2 U2 R2 U' R2 U' R2
@@ -64,7 +64,7 @@ ohcoll:
   - R' U R U2 L' R' U R U' L
   - U2 F R U R' U' R U' R' U' R U R' F'
   - U' r U R' U' L' U R U'
-  - "U2 x' R U R' D R U' R' u' x"
+  - "U2 x' R U R' D R U' R' U' E x"
 
 wv:
   - U2 L' U2 (R U' R') U2 L
