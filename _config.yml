@@ -29,9 +29,9 @@ triggers:
   K2: R' U2 R
   S: R' F R F'
   S': F R' F' R
-  I: U
-  O: U'
-  
+  U: U
+  I: U'
+  OU X: X'
 
 lc-coll:
   - y' (R U' R y R2 U E' R' U R U' R U' E R2 F2)
