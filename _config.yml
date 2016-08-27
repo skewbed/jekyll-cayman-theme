@@ -21,7 +21,7 @@ triggers:
   P: R U R'
   P': R U' R'
   P2: R U2 R'
-  O: U2
+  H: U2
   T: R U R' U'
   T': U R U' R'
   K: R' U R
@@ -29,6 +29,8 @@ triggers:
   K2: R' U2 R
   S: R' F R F'
   S': F R' F' R
+  I: U
+  O: U'
   
 
 lc-coll:
