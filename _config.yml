@@ -32,6 +32,8 @@ triggers:
   U: U
   I: U'
   OU X: X'
+  L: Y'
+  R: Y
 
 lc-coll:
   - y' (R U' R y R2 U E' R' U R U' R U' E R2 F2)
