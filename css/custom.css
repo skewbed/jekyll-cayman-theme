@@ -1,5 +1,5 @@
- @import 'https://fonts.googleapis.com/css?family=Roboto:500,700';
- 
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:500';
+
 .algs {
   display: block;
   text-align: center;
@@ -10,7 +10,7 @@
   display: inline-block;
   width: 32%;
   font-weight: 500;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   min-height: 8rem;
   font-size: 1.5rem;
 }
@@ -21,6 +21,7 @@
 }
 
 .title { 
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 3rem;
 }
