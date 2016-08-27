@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "ZZ-CT Beginner Algs"
+date:   2016-08-21 17:00:00
+categories: main
+---
+
+<section class="algs">
+  {% for trigger in site.triggers %}
+    <div class="alg">
+      <div>{{ trigger[0] }}</div>
+      <span>{{ trigger[1] }}</span>
+    </div>
+  {% endfor %}
+</section>
+
