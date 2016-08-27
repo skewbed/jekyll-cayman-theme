@@ -18,9 +18,18 @@ gems:
 markdown: kramdown
 
 triggers:
-  A: (R U R')
-  A2: (R U2 R')
-  A': (R U' R')
+  H: R U R'
+  H': R U' R'
+  H2: R U2 R'
+  O: U2
+  T: R U R' U'
+  T': U R U' R'
+  K: R' U R
+  K': R' U' R
+  K2: R' U2 R
+  S: R' F R F'
+  S': F R' F' R
+  
 
 lc-coll:
   - y' (R U' R y R2 U E' R' U R U' R U' E R2 F2)
