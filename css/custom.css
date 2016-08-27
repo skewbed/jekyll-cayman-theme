@@ -12,11 +12,12 @@
   font-weight: 500;
   font-family: 'Roboto';
   min-height: 10rem;
+  font-size: 1.5rem;
 }
 
 .alg > div {
   display: block;
-  min-height: 2.2rem;
+  min-height: 3.4rem;
 }
 
 .title { 
