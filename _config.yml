@@ -31,7 +31,7 @@ triggers:
   S': F R' F' R
   U: U
   I: U'
-  OU X: X'
+  OU {X}: {X}'
   L: Y'
   R: Y
 
