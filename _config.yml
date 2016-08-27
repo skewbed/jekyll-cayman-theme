@@ -18,7 +18,7 @@ gems:
 markdown: kramdown
 
 triggers:
-  P: R U R'
+  P: "R U R'"
   P': R U' R'
   P2: R U2 R'
   H: U2
@@ -31,7 +31,7 @@ triggers:
   S': F R' F' R
   U: U
   I: U'
-  OU {X}: {X}'
+  "OU {X}": "{X}'"
   L: Y'
   R: Y
 
