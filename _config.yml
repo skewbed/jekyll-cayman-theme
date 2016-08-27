@@ -18,9 +18,9 @@ gems:
 markdown: kramdown
 
 triggers:
-  H: R U R'
-  H': R U' R'
-  H2: R U2 R'
+  P: R U R'
+  P': R U' R'
+  P2: R U2 R'
   O: U2
   T: R U R' U'
   T': U R U' R'
