@@ -8,8 +8,8 @@ categories: main
 <section class="algs">
   {% for trigger in site.triggers %}
     <div class="alg">
-      <div>{{ trigger[0] }}</div>
-      <span>{{ trigger[1] }}</span>
+      <div class="title">{{ trigger[0] }}</div>
+      <div>{{ trigger[1] }}</div>
     </div>
   {% endfor %}
 </section>
