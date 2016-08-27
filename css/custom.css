@@ -11,6 +11,7 @@
   width: 32%;
   font-weight: 500;
   font-family: 'Roboto';
+  min-height: 4rem;
 }
 
 .alg > div {
