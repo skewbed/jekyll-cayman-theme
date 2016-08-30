@@ -23,19 +23,19 @@ triggers:
   Right: Y
   
   P: "R U R'"
-  P': R U' R'
+  Pi: R U' R'
   P2: R U2 R'
   
   H: U2
   T: R U R' U'
-  T': U R U' R'
+  Ti: U R U' R'
   
   K: R' U R
-  K': R' U' R
+  Ki: R' U' R
   K2: R' U2 R
   
   S: R' F R F'
-  S': F R' F' R
+  Si: F R' F' R
   L: R' U R
   
   Li: R' U' R
