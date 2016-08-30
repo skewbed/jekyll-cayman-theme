@@ -31,9 +31,9 @@ triggers:
   S': F R' F' R
   U: U
   I: U'
-  "OU {X}": "{X}'"
-  L: Y'
-  R: Y
+  "{X}i": "{X}'"
+  Left: Y'
+  Right: Y
 
 lc-coll:
   - y' (R U' R y R2 U E' R' U R U' R U' E R2 F2)
@@ -44,7 +44,7 @@ lc-coll:
   - y' R2 U2 R2 U R2 U R2 y
 
 zzct-beg:
- - (R U2 R') U' (R U R' U') (R U' R')
+ - (R U2 R') U' (R U R' U') (R U' R') : P2 I T Pi
  - R U2 [R2] U' [R2] U' [R2] U2 R
  - U (R U R' U') R U' (R' U2 R) U' (R' U2 R) U R'
  - "{(R U R') U (R U2 R')} U' {(R U2 R') U' (R U' R')}"
