@@ -44,7 +44,7 @@ lc-coll:
   - y' R2 U2 R2 U R2 U R2 y
 
 zzct-beg:
- - "(R U2 R') U' (R U R' U') (R U' R')": P2 I T Pi
+  "(R U2 R') U' (R U R' U') (R U' R')": P2 I T Pi
 # - R U2 [R2] U' [R2] U' [R2] U2 R
 # - U (R U R' U') R U' (R' U2 R) U' (R' U2 R) U R'
 # - "{(R U R') U (R U2 R')} U' {(R U2 R') U' (R U' R')}"
