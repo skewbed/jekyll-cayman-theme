@@ -46,7 +46,7 @@ lc-coll:
   y' (R U' R y R2 U E' R' U R U' R U' E R2 F2): "Left R I R Right R2 u L I R u' R2 F2"
   R' U R' y' R2 u' R U' R' U R' u R2 y R2: "R' U R' Left R2 u' Pi U R' u R2 Right R2"
   R U L' U2 R U' R' U2 L R U' R2: "R U L' [H] Pi [H] L R I R2"
-  U2 x' (R' U R U')(R' U R U')(R' U R U')(R' U R U') x: "H x' (L I)4 x"
+  U2 x (R' U R U')(R' U R U')(R' U R U'): "H x (L I)3"
   R2 U2 R2 U' R2 U' R2: "[R2] H [R2] I [R2] I [R2]"
   y' R2 U2 R2 U R2 U R2 y: "Left [R2] H [R2] U [R2] U [R2] Right"
 
