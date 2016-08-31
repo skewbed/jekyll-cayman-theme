@@ -19,6 +19,6 @@ categories: main
 <section class="algs">
   <div class="alg">
     <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&stage=pll&case=R U R' F' R U R' U' R' F R2 U' R'">
-    <div>P OUF T S OUP</div>
+    <div>P Fi T S Pi</div>
   </div>
 </section>
