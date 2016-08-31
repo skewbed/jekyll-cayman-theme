@@ -18,7 +18,11 @@ categories: main
 <section class="algs">
   {% for alg in site.lc-coll %}
     <div class="alg">
+      {% if alg[1] == 'H x\' (L I)4 x' %}
+      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&sch=brwgoy&case={{ alg[0] }}" onclick="imgClick(event)">
+      {% else %}
       <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&case={{ alg[0] }}" onclick="imgClick(event)">
+      {% endif %}
       <div>{{ alg[0] }}</div>
       <div><strong>{{ alg[1] }}</strong></div>
     </div>
