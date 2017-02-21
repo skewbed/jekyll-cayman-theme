@@ -18,29 +18,22 @@ gems:
 markdown: kramdown
 
 triggers:
-  "{X}i": "{X}'"
-  Left: Y'
-  Right: Y
-  
+  "{Letter}a": "{Letter}"
+  "{Letter}i": "{Letter}'"
+  "{Letter}u": "{Letter}2 (can cancel)"
+
+  "{Letter}al": "{Letter} Mirrored"
+  "{Letter}il": "{Letter}' Mirrored"
+  "{Letter}ul": "{Letter}2 Mirrored"
+
   P: "R U R'"
-  Pi: R U' R'
-  P2: R U2 R'
-  
-  H: U2
   T: R U R' U'
-  Ti: U R U' R'
-  
   K: R' U R
-  Ki: R' U' R
-  K2: R' U2 R
-  
+
   S: R' F R F'
-  Si: F R' F' R
-  L: R' U R
-  
-  Li: R' U' R
-  U: U
-  I: U'
+  F: F
+  H: U
+
 
 lc-coll:
   y' (R U' R y R2 U E' R' U R U' R U' E R2 F2): "Left R I R Right R2 u L I R u' R2 F2"
@@ -51,37 +44,35 @@ lc-coll:
   y' R2 U2 R2 U R2 U R2 y: "Left [R2] H [R2] U [R2] U [R2] Right"
 
 zzct-beg:
-  "(R U2 R') U' (R U R' U') (R U' R')": P2 I T Pi
-# - R U2 [R2] U' [R2] U' [R2] U2 R
-# - U (R U R' U') R U' (R' U2 R) U' (R' U2 R) U R'
-# - "{(R U R') U (R U2 R')} U' {(R U2 R') U' (R U' R')}"
-# - U (R U2 R') U' (R U R' U') (R U R' U') (R U' R')
-# - (R U2 R') U' (R U' R')
-# - (R U R') U (R U2 R')
- 
-# - (R U R' U') (R U R') (U R U' R')
-# - (R U2 R') U2 (R U R') (U R U' R')
-# - (R U2 R') U (R U2 R') U2 (R U R')
-# - U' (R U2 R') U (R U R')
-# - U2 (R U' R') U' (R U R' U') (R U2 R')
-# - (R U2 R') U' (R U R') U (R U R')
-# - U (R U R' U') (R U R') U (R U2 R') U' (R U2 R')
-# - U (R U R') U2 (R U R')
-# - (R U' R') U (R U R') (U R U' R')
-# - U2 (R U' R') U' (R U2 R')
-# - (R U R' U') (R U' R') U2 (R U2 R')
-# - U' (R U' R') U2 (R U' R')
-# - U' (R U' R') U (R U2 R') (U R U' R')
-# - U (R U R' U') (R U2 R') U' (R U' R') U (R U R')
-# - (R U2 R') U (R U R') U (R U2 R') U' (R U' R')
-# - U2 (R U' R') U (R U R' U') (R U R')
+  "(R U2 R') U' (R U R' U') (R U' R')": Pu Hi Ta Pi
+  R U2 [R2] U' [R2] U' [R2] U2 R: Pu Ki Pi Ku
+  U (R U R' U') R U' (R' U2 R) U' (R' U2 R) U R': Ha Ta Pi Hu 
+  # "{(R U R') U (R U2 R')} U' {(R U2 R') U' (R U' R')}"
+  # U (R U2 R') U' (R U R' U') (R U R' U') (R U' R')
+  # (R U2 R') U' (R U' R')
+  # (R U R') U (R U2 R')
+  # (R U R' U') (R U R') (U R U' R')
+  # (R U2 R') U2 (R U R') (U R U' R')
+  # (R U2 R') U (R U2 R') U2 (R U R')
+  # U' (R U2 R') U (R U R')
+  # U2 (R U' R') U' (R U R' U') (R U2 R')
+  # (R U2 R') U' (R U R') U (R U R')
+  # U (R U R' U') (R U R') U (R U2 R') U' (R U2 R')
+  # U (R U R') U2 (R U R')
+  # (R U' R') U (R U R') (U R U' R')
+  # U2 (R U' R') U' (R U2 R')
+  # (R U R' U') (R U' R') U2 (R U2 R')
+  # U' (R U' R') U2 (R U' R')
+  # U' (R U' R') U (R U2 R') (U R U' R')
+  # U (R U R' U') (R U2 R') U' (R U' R') U (R U R')
+  # (R U2 R') U (R U R') U (R U2 R') U' (R U' R')
+  # U2 (R U' R') U (R U R' U') (R U R')
 
 oh-epll:
   z U' R [U'] R' [U'] R' [U'] R U R U2 z': "z [I] R [I] R' [I] R' [I] R U R H z'"
   R U' R U R (U R U' R') U' R2: "R I R U R Ti I R2"
   R2 U2 R [U2 R2 U2 R2 U2] R U2 R2: "R2 [H] R [[H] R2 [H] R2 [H]] R [H] R2"
   "(R U R') U R' U' R' U (R U' R') U' R2 U R": "P U [R' U' R'] U Pi I R2 U R"
-  
 
 ohcoll:
   - R U2 R' U' R U' R2 U2' R U R' U R
