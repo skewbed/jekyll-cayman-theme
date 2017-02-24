@@ -38,7 +38,7 @@ categories: main
 
 <script>
   window.onload = function() {
-    if(localStorage.getItem("(R U R' U') (R U R') (U R U' R')") == null) {
+    if(localStorage.getItem("(R U2 R') U' (R U R' U') (R U' R')") == null) {
       [].slice.call(document.getElementsByClassName("alg")).forEach(function(a) {
         console.log("[[DEBUG]]")
         localStorage.setItem(a.innerText, "on");
@@ -53,7 +53,7 @@ categories: main
   }
 
   function imgClick(e) {
-    console.log("[[IMGCLICK]]");
+    <!-- console.log("[[IMGCLICK]]");
     if(e.target.className.indexOf("disabled") == -1) {
       console.log("[[DISABLE]]");
       e.target.className += "disabled";
@@ -62,6 +62,6 @@ categories: main
       console.log("[[ENABLE]]");
       e.target.className = "";
       localStorage.setItem(e.target.parentElement.innerText, "on");
-    }
+    } -->
   }
 </script>
