@@ -36,12 +36,12 @@ triggers:
 
 
 lc-coll:
-  y' (R U' R y R2 U E' R' U R U' R U' E R2 F2): "Left R I R Right R2 u L I R u' R2 F2"
-  R' U R' y' R2 u' R U' R' U R' u R2 y R2: "R' U R' Left R2 u' Pi U R' u R2 Right R2"
-  R U L' U2 R U' R' U2 L R U' R2: "R U L' [H] Pi [H] L R I R2"
-  U2 x (R' U R U')(R' U R U')(R' U R U'): "H x (L I)3"
-  R2 U2 R2 U' R2 U' R2: "[R2] H [R2] I [R2] I [R2]"
-  y' R2 U2 R2 U R2 U R2 y: "Left [R2] H [R2] U [R2] U [R2] Right"
+- y' (R U' R y R2 U E' R' U R U' R U' E R2 F2)
+- R' U R' y' R2 u' R U' R' U R' u R2 y R2
+- R U L' U2 R U' R' U2 L R U' R2
+- U2 x (R' U R U')(R' U R U')(R' U R U')
+- R2 U2 R2 U' R2 U' R2
+- y' R2 U2 R2 U R2 U R2 y
 
 zzct-beg:
 - "(R U2 R') U' (R U R' U') (R U' R')"
@@ -69,10 +69,10 @@ zzct-beg:
 - U2 (R U' R') U (R U R' U') (R U R')
 
 oh-epll:
-  z U' R [U'] R' [U'] R' [U'] R U R U2 z': "z [I] R [I] R' [I] R' [I] R U R H z'"
-  R U' R U R (U R U' R') U' R2: "R I R U R Ti I R2"
-  R2 U2 R [U2 R2 U2 R2 U2] R U2 R2: "R2 [H] R [[H] R2 [H] R2 [H]] R [H] R2"
-  "(R U R') U R' U' R' U (R U' R') U' R2 U R": "P U [R' U' R'] U Pi I R2 U R"
+- z U' R [U'] R' [U'] R' [U'] R U R U2 z'
+- R U' R U R (U R U' R') U' R2
+- R2 U2 R [U2 R2 U2 R2 U2] R U2 R2
+- "(R U R') U R' U' R' U (R U' R') U' R2 U R"
 
 ohcoll:
 - R U2 R' U' R U' R2 U2' R U R' U R

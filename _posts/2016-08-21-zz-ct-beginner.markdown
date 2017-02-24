@@ -17,13 +17,12 @@ categories: main
 <section class="algs">
   {% for alg in site.lc-coll %}
     <div class="alg">
-      {% if alg[1] == 'H x (L I)3'%}
-      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&sch=brwgoy&case={{ alg[0] }}" onclick="imgClick(event)">
+      {% if alg == "U2 x (R' U R U')(R' U R U')(R' U R U')"%}
+      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&sch=brwgoy&case={{ alg }}" onclick="imgClick(event)">
       {% else %}
-      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&case={{ alg[0] }}" onclick="imgClick(event)">
+      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&case={{ alg }}" onclick="imgClick(event)">
       {% endif %}
-      <div>{{ alg[0] }}</div>
-      <div><strong>{{ alg[1] }}</strong></div>
+      <div>{{ alg }}</div>
     </div>
   {% endfor %}
 </section>
@@ -31,9 +30,8 @@ categories: main
 <section class="algs">
   {% for alg in site.oh-epll %}
     <div class="alg">
-      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&stage=pll&case={{ alg[0] }}" onclick="imgClick(event)">
-      <div>{{ alg[0] }}</div>
-      <div><strong>{{ alg[1] }}</strong></div>
+      <img src="http://stachu.cubing.net/v/visualcube.php?fmt=png&size=960&view=plan&stage=pll&case={{ alg }}" onclick="imgClick(event)">
+      <div>{{ alg }}</div>
     </div>
   {% endfor %}
 </section>
